@@ -1,0 +1,47 @@
+﻿@model ArticleModel
+
+@{
+    ViewData["Title"] = "Edit Article";
+}
+
+<h2>Edit Category: @Model.Title</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Title">Title</label>
+        <input asp-for="Title" type="text" class="form-control" placeholder="Enter title">
+        <span asp-validation-for="Title" class="form-text text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Content">Content</label>
+        <input asp-for="Content" type="text" class="form-control" placeholder="Enter content">
+        <span asp-validation-for="Content" class="form-text text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Category">Category</label>
+        <input asp-for="Category" type="text" class="form-control" placeholder="Enter category" disabled>
+        <span asp-validation-for="Category" class="form-text text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Tags:</label>
+        <input type="text" asp-for="Tags" class="form-control" placeholder="Enter tags">
+        <span asp-validation-for="Tags" class="form-text text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Image Url:</label>
+        <input type="text" asp-for="ImageUrl" class="form-control" placeholder="Enter Image Url">
+        <span asp-validation-for="ImageUrl" class="form-text text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Author">Author:</label>
+        <input asp-for="Author" type="text" class="form-control" disabled>
+        <span asp-validation-for="Author" class="form-text text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Current User:</label>
+        <input type="text" class="form-control" disabled value="@ViewBag.AuthorName">
+        <span class="form-text text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

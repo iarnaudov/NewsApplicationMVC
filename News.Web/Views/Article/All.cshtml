@@ -1,0 +1,205 @@
+﻿@model ReflectionIT.Mvc.Paging.PagingList<News.Models.Article>
+
+@{
+    ViewData["Title"] = "All";
+}
+
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+
+<div>
+    <h2 id="homeHeadings">All articles</h2>
+    @if (this.User.IsInRole("Administrator") || this.User.IsInRole("Moderator"))
+    {
+        <button style="float:right;" type="submit" class="btn btn-success hvr-grow" onclick="location.href='@Url.Action("Create", "Article")'" value="Create Category">Create new Article</button>
+
+    }
+    @if (TempData["sortlevel"].ToString() == "name_descending")
+    {
+        <form method="post">
+            <div style="margin-bottom: 20px;text-align: left;" method="post">
+                @Html.DropDownList("ordertype", new List<SelectListItem>
+                {
+                new SelectListItem{ Text="Name Asc", Value = "name_ascending", },
+                new SelectListItem{ Text="Name Desc", Value = "name_descending", Selected=true },
+                new SelectListItem{ Text="Latest", Value = "date_latest" },
+                new SelectListItem{ Text="Oldest", Value = "date_oldest" },
+                new SelectListItem{ Text="Category Asc", Value = "category_asc" },
+                new SelectListItem{ Text="Category Desc", Value = "category_desc" }
+                }, new { id = "sort" })
+                <button class="btn btn-primary hvr-grow" type="submit" /><strong>Sort</strong>
+            </div>
+        </form>
+    }
+    else if (TempData["sortlevel"].ToString() == "name_ascending")
+    {
+        <form method="post">
+            <div style="margin-bottom: 20px;text-align: left;" method="post">
+                @Html.DropDownList("ordertype", new List<SelectListItem>
+                {
+                new SelectListItem{ Text="Name Asc", Value = "name_ascending", Selected=true  },
+                new SelectListItem{ Text="Name Desc", Value = "name_descending",},
+                new SelectListItem{ Text="Latest", Value = "date_latest" },
+                new SelectListItem{ Text="Oldest", Value = "date_oldest" },
+                new SelectListItem{ Text="Category Asc", Value = "category_asc" },
+                new SelectListItem{ Text="Category Desc", Value = "category_desc" }
+                }, new { id = "sort" })
+                <button class="btn btn-primary hvr-grow" type="submit" /><strong>Sort</strong>
+            </div>
+        </form>
+    }
+    else if (TempData["sortlevel"].ToString() == "date_latest")
+    {
+        <form method="post">
+            <div style="margin-bottom: 20px;text-align: left;" method="post">
+                @Html.DropDownList("ordertype", new List<SelectListItem>
+                {
+                     new SelectListItem{ Text="Name Asc", Value = "name_ascending", },
+                new SelectListItem{ Text="Name Desc", Value = "name_descending",},
+                new SelectListItem{ Text="Latest", Value = "date_latest", Selected=true  },
+                new SelectListItem{ Text="Oldest", Value = "date_oldest" },
+                new SelectListItem{ Text="Category Asc", Value = "category_asc" },
+                new SelectListItem{ Text="Category Desc", Value = "category_desc" }
+                }, new { id = "sort" })
+                <button class="btn btn-primary hvr-grow" type="submit" /><strong>Sort</strong>
+            </div>
+        </form>
+    }
+    else if (TempData["sortlevel"].ToString() == "date_oldest")
+    {
+        <form method="post">
+            <div style="margin-bottom: 20px;text-align: left;" method="post">
+                @Html.DropDownList("ordertype", new List<SelectListItem>
+                {
+                     new SelectListItem{ Text="Name Asc", Value = "name_ascending", },
+                new SelectListItem{ Text="Name Desc", Value = "name_descending",},
+                new SelectListItem{ Text="Latest", Value = "date_latest" },
+                new SelectListItem{ Text="Oldest", Value = "date_oldest", Selected=true  },
+                new SelectListItem{ Text="Category Asc", Value = "category_asc" },
+                new SelectListItem{ Text="Category Desc", Value = "category_desc" }
+                }, new { id = "sort" })
+                <button class="btn btn-primary hvr-grow" type="submit" /><strong>Sort</strong>
+            </div>
+        </form>
+    }
+    else if (TempData["sortlevel"].ToString() == "likes_ascending")
+    {
+        <form method="post">
+            <div style="margin-bottom: 20px;text-align: left;" method="post">
+                @Html.DropDownList("ordertype", new List<SelectListItem>
+                {
+                     new SelectListItem{ Text="Name Asc", Value = "name_ascending", },
+                new SelectListItem{ Text="Name Desc", Value = "name_descending",},
+                new SelectListItem{ Text="Latest", Value = "date_latest" },
+                new SelectListItem{ Text="Oldest", Value = "date_oldest" },
+                new SelectListItem{ Text="Category Asc", Value = "category_asc" },
+                new SelectListItem{ Text="Category Desc", Value = "category_desc" }
+                }, new { id = "sort" })
+                <button class="btn btn-primary hvr-grow" type="submit" /><strong>Sort</strong>
+            </div>
+        </form>
+    }
+    else if (TempData["sortlevel"].ToString() == "likes_descending")
+    {
+        <form method="post">
+            <div style="margin-bottom: 20px;text-align: left;" method="post">
+                @Html.DropDownList("ordertype", new List<SelectListItem>
+                {
+                     new SelectListItem{ Text="Name Asc", Value = "name_ascending", },
+                new SelectListItem{ Text="Name Desc", Value = "name_descending",},
+                new SelectListItem{ Text="Latest", Value = "date_latest" },
+                new SelectListItem{ Text="Oldest", Value = "date_oldest" },
+                new SelectListItem{ Text="Category Asc", Value = "category_asc" },
+                new SelectListItem{ Text="Category Desc", Value = "category_desc" }
+                }, new { id = "sort" })
+                <button class="btn btn-primary hvr-grow" type="submit" /><strong>Sort</strong>
+            </div>
+        </form>
+    }
+    else if (TempData["sortlevel"].ToString() == "category_asc")
+    {
+        <form method="post">
+            <div style="margin-bottom: 20px;text-align: left;" method="post">
+                @Html.DropDownList("ordertype", new List<SelectListItem>
+                {
+                     new SelectListItem{ Text="Name Asc", Value = "name_ascending", },
+                new SelectListItem{ Text="Name Desc", Value = "name_descending",},
+                new SelectListItem{ Text="Latest", Value = "date_latest" },
+                new SelectListItem{ Text="Oldest", Value = "date_oldest" },
+                new SelectListItem{ Text="Category Asc", Value = "category_asc", Selected=true },
+                new SelectListItem{ Text="Category Desc", Value = "category_desc" }
+                }, new { id = "sort" })
+                <button class="btn btn-primary hvr-grow" type="submit" /><strong>Sort</strong>
+            </div>
+        </form>
+    }
+    else if (TempData["sortlevel"].ToString() == "category_desc")
+    {
+        <form method="post">
+            <div style="margin-bottom: 20px;text-align: left;" method="post">
+                @Html.DropDownList("ordertype", new List<SelectListItem>
+                {
+                     new SelectListItem{ Text="Name Asc", Value = "name_ascending", },
+                new SelectListItem{ Text="Name Desc", Value = "name_descending",},
+                new SelectListItem{ Text="Latest", Value = "date_latest" },
+                new SelectListItem{ Text="Oldest", Value = "date_oldest" },
+                new SelectListItem{ Text="Category Asc", Value = "category_asc",},
+                new SelectListItem{ Text="Category Desc", Value = "category_desc", Selected=true  }
+                }, new { id = "sort" })
+                <button class="btn btn-primary hvr-grow" type="submit" /><strong>Sort</strong>
+            </div>
+        </form>
+    }
+    else
+    {
+        <form method="post">
+            <div style="margin-bottom: 20px;text-align: left;" method="post">
+                @Html.DropDownList("ordertype", new List<SelectListItem>
+                {
+                     new SelectListItem{ Text="Name Asc", Value = "name_ascending",Selected=true  },
+                new SelectListItem{ Text="Name Desc", Value = "name_descending",},
+                new SelectListItem{ Text="Latest", Value = "date_latest" },
+                new SelectListItem{ Text="Oldest", Value = "date_oldest" },
+                new SelectListItem{ Text="Category Asc", Value = "category_asc",},
+                new SelectListItem{ Text="Category Desc", Value = "category_desc",  }
+                }, new { id = "sort" })
+                <button class="btn btn-primary hvr-grow" type="submit" /><strong>Sort</strong>
+            </div>
+        </form>
+    }
+
+
+    @foreach (var article in Model)
+    {
+        <div class="article">
+            <h2 id="articleHeading" class="hvr-float"> @Html.ActionLink(article.Title, "Details", "Article", new { id = article.Id }, null) </h2>
+            @if (article.Content.Length > 300)
+            {
+                <p> @(article.Content.Substring(0, 300) + "...")</p>
+            }
+            else
+            {
+                <p> @article.Content </p>
+            }
+            <span id="articleCategory">@article.Category.Name</span>
+            <span id="articleDate" margin-right:50px;">@article.TimeCreated</span>
+            <div style="text-align:right;">
+                @if (this.User.IsInRole("Administrator") || this.User.IsInRole("Moderator"))
+                {
+                    <div>
+                        <a class="btn btn-primary hvr-grow" href="/articles/edit/@article.Id">Edit</a>
+                        <a class="btn btn-danger hvr-grow" href="/articles/delete/@article.Id">Delete</a>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>
+<div style="text-align:right">
+    <nav>
+        <vc:pager paging-list="@Model" />
+    </nav>
+</div>
+
+

@@ -1,0 +1,36 @@
+﻿@model ArticleModel
+
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="article" style="margin-top:50px;">
+    <div class="row">
+        <div class="col-md-8">
+            <h3 id="title">@Model.Title</h3>
+        </div>
+        <div class="col-md-4">
+            <img src="@Model.ImageUrl" width="350" />
+        </div>
+    </div>
+    <h4 id="content">@Model.Content</h4>
+    <div class="tagsDiv">
+        <span>@Model.Tags</span>
+    </div>
+    <div class="articleFooter">
+        <span id="articleAuthorDetails"> By: @Model.Author</span>
+        <span id="articleCategory">@Model.Category</span>
+        <p id="articleDate" style="float: right;">Date Created: @Model.DateCreated</p>
+    </div>
+</div>
+@if (this.User.IsInRole("Administrator") || this.User.IsInRole("Moderator"))
+{
+    <div id="categoryButtons">
+        <a class="btn btn-success" asp-controller="Articles" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+        <a class="btn btn-danger" asp-controller="Articles" asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+    </div>
+}

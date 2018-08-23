@@ -1,0 +1,25 @@
+﻿@model User
+
+<h2>User Details:</h2>
+<table id="userTable">
+    <tbody>
+        <tr>
+            <td>ID:</td>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <td>Username:</td>
+            <td>@Model.UserName</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>@Model.Email</td>
+        </tr>
+    </tbody>
+</table>
+<div>
+    <form method="post" >
+        <a class="btn btn-danger" id="userDelete" asp-area="Users" asp-controller="Manage" asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+    </form>
+</div>
+

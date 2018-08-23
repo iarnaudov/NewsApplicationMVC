@@ -1,0 +1,15 @@
+﻿@page
+@model News.Web.Areas.Account.Pages.SearchModel
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h2>Search results for: @Model.SearchTerm</h2>
+
+    @foreach (var article in Model.Results)
+    {
+        <h3 id="articleHeading" class="hvr-float"><span>* </span> @Html.ActionLink(article.Value, "Details", "Article", new { id = article.Key }, null) </h3>
+        <br />
+    }
+
+

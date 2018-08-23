@@ -1,0 +1,28 @@
+C:\Users\iarna\Desktop\git\News\News.Services\obj\Debug\netcoreapp2.1\News.Services.csprojAssemblyReference.cache
+C:\Users\iarna\Desktop\git\News\News.Services\obj\Debug\netcoreapp2.1\News.Services.csproj.CoreCompileInputs.cache
+C:\Users\iarna\Desktop\git\News\News.Services\obj\Debug\netcoreapp2.1\News.Services.AssemblyInfoInputs.cache
+C:\Users\iarna\Desktop\git\News\News.Services\obj\Debug\netcoreapp2.1\News.Services.AssemblyInfo.cs
+C:\Users\iarna\Desktop\git\News\News.Services\bin\Debug\netcoreapp2.1\News.Services.deps.json
+C:\Users\iarna\Desktop\git\News\News.Services\bin\Debug\netcoreapp2.1\News.Services.dll
+C:\Users\iarna\Desktop\git\News\News.Services\bin\Debug\netcoreapp2.1\News.Services.pdb
+C:\Users\iarna\Desktop\git\News\News.Services\bin\Debug\netcoreapp2.1\News.Data.dll
+C:\Users\iarna\Desktop\git\News\News.Services\bin\Debug\netcoreapp2.1\News.Models.dll
+C:\Users\iarna\Desktop\git\News\News.Services\bin\Debug\netcoreapp2.1\News.Data.pdb
+C:\Users\iarna\Desktop\git\News\News.Services\obj\Debug\netcoreapp2.1\News.Services.csproj.CopyComplete
+C:\Users\iarna\Desktop\git\News\News.Services\obj\Debug\netcoreapp2.1\News.Services.dll
+C:\Users\iarna\Desktop\git\News\News.Services\obj\Debug\netcoreapp2.1\News.Services.pdb
+C:\Users\iarna\Desktop\git\News\News.Services\bin\Debug\netcoreapp2.1\News.Models.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\bin\Debug\netcoreapp2.1\News.Services.deps.json
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\bin\Debug\netcoreapp2.1\News.Services.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\bin\Debug\netcoreapp2.1\News.Services.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\bin\Debug\netcoreapp2.1\News.Data.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\bin\Debug\netcoreapp2.1\News.Models.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\bin\Debug\netcoreapp2.1\News.Data.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\bin\Debug\netcoreapp2.1\News.Models.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\obj\Debug\netcoreapp2.1\News.Services.csprojAssemblyReference.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\obj\Debug\netcoreapp2.1\News.Services.csproj.CoreCompileInputs.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\obj\Debug\netcoreapp2.1\News.Services.AssemblyInfoInputs.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\obj\Debug\netcoreapp2.1\News.Services.AssemblyInfo.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\obj\Debug\netcoreapp2.1\News.Services.csproj.CopyComplete
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\obj\Debug\netcoreapp2.1\News.Services.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Services\obj\Debug\netcoreapp2.1\News.Services.pdb

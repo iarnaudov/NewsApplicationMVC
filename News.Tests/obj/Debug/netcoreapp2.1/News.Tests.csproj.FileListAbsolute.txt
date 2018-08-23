@@ -1,0 +1,52 @@
+C:\Users\iarna\Desktop\git\News\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.csprojAssemblyReference.cache
+C:\Users\iarna\Desktop\git\News\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.csproj.CoreCompileInputs.cache
+C:\Users\iarna\Desktop\git\News\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.AssemblyInfoInputs.cache
+C:\Users\iarna\Desktop\git\News\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.AssemblyInfo.cs
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Web.Views.dll
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Web.Views.pdb
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Tests.deps.json
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Tests.runtimeconfig.json
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Tests.runtimeconfig.dev.json
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Tests.dll
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Tests.pdb
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Data.dll
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Models.dll
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Services.dll
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Web.dll
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Data.pdb
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Services.pdb
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Web.pdb
+C:\Users\iarna\Desktop\git\News\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.csproj.CopyComplete
+C:\Users\iarna\Desktop\git\News\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.dll
+C:\Users\iarna\Desktop\git\News\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.pdb
+C:\Users\iarna\Desktop\git\News\News.Tests\bin\Debug\netcoreapp2.1\News.Models.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Web.Views.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Web.Views.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Tests.deps.json
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Tests.runtimeconfig.json
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Tests.runtimeconfig.dev.json
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Tests.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Tests.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Data.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Models.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Services.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Web.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Data.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Services.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Web.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\bin\Debug\netcoreapp2.1\News.Models.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.csprojAssemblyReference.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.csproj.CoreCompileInputs.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.AssemblyInfoInputs.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.AssemblyInfo.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.csproj.CopyComplete
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Tests\obj\Debug\netcoreapp2.1\News.Tests.pdb

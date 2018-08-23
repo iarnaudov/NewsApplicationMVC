@@ -1,0 +1,124 @@
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.csprojAssemblyReference.cache
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.csproj.CoreCompileInputs.cache
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorAssemblyInfo.cache
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorAssemblyInfo.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.AssemblyInfoInputs.cache
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.AssemblyInfo.cs
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Web.deps.json
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Web.runtimeconfig.json
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Web.runtimeconfig.dev.json
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Web.dll
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Web.pdb
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Web.Views.dll
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Web.Views.pdb
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Data.dll
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Models.dll
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Services.dll
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Data.pdb
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Services.pdb
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.TagHelpers.input.cache
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.TagHelpers.output.cache
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorCoreGenerate.cache
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Login.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Register.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Search\Pages\Search.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Search\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Search\Pages\_ViewImports.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Search\Pages\_ViewStart.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Manage\All.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Manage\Details.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Shared\_ScriptsPartial.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\_ViewImports.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\_ViewStart.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Article\All.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Article\Create.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Article\Details.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Article\Edit.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Category\All.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Category\Create.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Category\Edit.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ScriptsPartial.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorTargetAssemblyInfo.cache
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorTargetAssemblyInfo.cs
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.Views.pdb
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.csproj.CopyComplete
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.dll
+C:\Users\iarna\Desktop\git\News\News.Web\obj\Debug\netcoreapp2.1\News.Web.pdb
+C:\Users\iarna\Desktop\git\News\News.Web\bin\Debug\netcoreapp2.1\News.Models.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Web.deps.json
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Web.runtimeconfig.json
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Web.runtimeconfig.dev.json
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Web.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Web.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Web.Views.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Web.Views.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Data.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Models.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Services.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Data.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Services.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\bin\Debug\netcoreapp2.1\News.Models.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.csprojAssemblyReference.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.csproj.CoreCompileInputs.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorAssemblyInfo.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorAssemblyInfo.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.AssemblyInfoInputs.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.AssemblyInfo.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.TagHelpers.input.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.TagHelpers.output.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorCoreGenerate.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Login.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Register.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Search\Pages\Search.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Search\Pages\_ValidationScriptsPartial.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Search\Pages\_ViewImports.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Search\Pages\_ViewStart.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Manage\All.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Manage\Details.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Shared\_Layout.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Shared\_ScriptsPartial.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\_ViewImports.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\_ViewStart.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Article\All.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Article\Create.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Article\Details.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Article\Edit.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Category\All.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Category\Create.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Category\Edit.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ScriptsPartial.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorTargetAssemblyInfo.cache
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorTargetAssemblyInfo.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.Views.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.csproj.CopyComplete
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.dll
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.pdb

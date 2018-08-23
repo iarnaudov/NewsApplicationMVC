@@ -1,0 +1,70 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using News.Models
+
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - News System App</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/hover.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index" class="hvr-bounce-in">Home</a></li>
+                    <li><a asp-area="" asp-controller="Category" asp-action="All" class="hvr-bounce-in">All Categories</a></li>
+                    <li><a asp-area="" asp-controller="Article" asp-action="All" class="hvr-bounce-in">All Articles</a></li>
+                    @if (this.User.IsInRole("Administrator"))
+                    { 
+                        <li><a asp-area="Users" asp-controller="Manage" asp-action="All" class="hvr-bounce-in">Manage Users</a></li>
+                    }
+                    <li>
+                        <form id="searchBar" class="form-inline my-2 my-lg-0" method="post" asp-page-handler="Search" asp-page="/Search" asp-area="Search">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="searchTerm">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </li>
+                </ul>
+                @await Html.PartialAsync("_LoginPartial")
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; NewsFeed Application - Ivo</p>
+        </footer>
+    </div>
+
+    <partial name="_ScriptsPartial" />
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

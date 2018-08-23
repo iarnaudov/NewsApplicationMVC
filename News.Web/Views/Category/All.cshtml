@@ -1,0 +1,66 @@
+﻿@model ReflectionIT.Mvc.Paging.PagingList<News.Models.Category>
+
+@{
+    ViewData["Title"] = "All";
+}
+
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+
+<div style="text-align: center">
+    <div style="display:inline-block; margin-right:20px;">
+        @if (this.User.IsInRole("Administrator") || this.User.IsInRole("Moderator"))
+        {
+            <button type="submit" class="btn btn-success hvr-grow" onclick="location.href='@Url.Action("Create", "Category")'" value="Create Category">Create new Category</button>
+        }
+    </div>
+    @if (TempData["orderLevel"].ToString() == "name_descending")
+    {
+        <form method="post" style="display:inline-block">
+            <div>
+                @Html.DropDownList("ordertype", new List<SelectListItem>
+                {
+                new SelectListItem{ Text="Name Asc", Value = "name_ascending",},
+                new SelectListItem{ Text="Name Desc", Value = "name_descending", Selected = true },
+                }, new { id = "sort2" })
+                <button class="btn btn-primary hvr-grow" type="submit" /><strong>Sort</strong>
+            </div>
+        </form>
+    }
+    else
+    {
+        <form method="post" style="display:inline-block">
+            <div>
+                @Html.DropDownList("ordertype", new List<SelectListItem>
+                {
+                new SelectListItem{ Text="Name Asc", Value = "name_ascending", Selected = true},
+                new SelectListItem{ Text="Name Desc", Value = "name_descending" },
+                }, new { id = "sort2" })
+                <button class="btn btn-primary hvr-grow" type="submit" /><strong>Sort</strong>
+            </div>
+        </form>
+    }
+    <div id="wrapper">
+        <div style="text-align:center; margin:10px auto;">
+            @foreach (var category in Model)
+            {
+            <div id="categoriesList">
+                <span style="font-size:25px;">@category.Name</span>
+                @if (this.User.IsInRole("Administrator") || this.User.IsInRole("Moderator"))
+                {
+                    <div id="categoryButtons">
+                        <a class="btn btn-primary hvr-grow" asp-controller="Category" asp-action="Edit" asp-route-id="@category.Id">Edit</a>
+                        <a class="btn btn-danger hvr-grow"asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id">Delete</a>
+                    </div>
+                }
+            </div>
+            }
+        </div>
+    </div>
+</div>
+<div style="text-align:center;">
+    <nav>
+        <vc:pager paging-list="@Model" />
+    </nav>
+</div>
