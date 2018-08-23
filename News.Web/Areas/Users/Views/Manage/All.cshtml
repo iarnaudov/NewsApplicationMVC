@@ -3,6 +3,6 @@
 @foreach (var user in @Model)
 {
     <div class="userDiv">
-        <span style="float:left; margin:0 7px 0 15px">&#9733;</span><a asp-area="Users" asp-controller="Manage" asp-action="Details" asp-route-id="@user.Id">@user.UserName</a>
+        <span style="float:left; margin:0 7px 0 15px">&#9733;</span><a style="text-decoration:none" class="hvr-bounce-in" asp-area="Users" asp-controller="Manage" asp-action="Details" asp-route-id="@user.Id">@user.UserName</a>
     </div>
 }

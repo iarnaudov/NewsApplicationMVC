@@ -27,6 +27,6 @@ namespace News.Services.Models
 
         public string ImageUrl { get; set; }
 
-        public string DateCreated { get; set; }
+        public string TimeCreated { get; set; }
     }
 }

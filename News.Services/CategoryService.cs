@@ -5,6 +5,7 @@ using News.Services.Contracts;
 using News.Services.Models;
 using System.Collections.Generic;
 using System.Linq;
+using AutoMapper.QueryableExtensions;
 
 namespace News.Services
 {
@@ -30,7 +31,7 @@ namespace News.Services
             return categoriesList;
         }
 
-        public IOrderedQueryable<Category> GetOrderedCategories(string ordertype)
+        public List<Category> GetOrderedCategories(string ordertype)
         {
             if (string.IsNullOrWhiteSpace(ordertype))
             {
@@ -38,12 +39,12 @@ namespace News.Services
             }
 
 
-            IOrderedQueryable<Category> categoryList;
+            List<Category> categoryList;
 
             switch (ordertype)
             {
-                case "name_ascending": categoryList = this.db.Categories.AsNoTracking().OrderBy(a => a.Name); break;
-                case "name_descending": categoryList = this.db.Categories.AsNoTracking().OrderByDescending(a => a.Name); break;
+                case "name_ascending": categoryList = this.db.Categories.OrderBy(a => a.Name).ToList(); break;
+                case "name_descending": categoryList = this.db.Categories.OrderByDescending(a => a.Name).ToList(); break;
                 default: categoryList = null; break;
             }
 
@@ -88,9 +89,12 @@ namespace News.Services
              return result;
         }
 
-        public Category Get(int id)
+        public CategoryModel Get(int id)
         {
-            var categories = this.db.Categories.ToList();
+            var categories = this.db.Categories
+                .ProjectTo<CategoryModel>()
+                .ToList();
+
             var categoryForEdit = categories.SingleOrDefault(c => c.Id == id);
             return categoryForEdit;
         }

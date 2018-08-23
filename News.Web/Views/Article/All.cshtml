@@ -1,4 +1,4 @@
-﻿@model ReflectionIT.Mvc.Paging.PagingList<News.Models.Article>
+﻿@model List<News.Models.Article>
 
 @{
     ViewData["Title"] = "All";
@@ -196,10 +196,6 @@
         </div>
     }
 </div>
-<div style="text-align:right">
-    <nav>
-        <vc:pager paging-list="@Model" />
-    </nav>
-</div>
+
 
 

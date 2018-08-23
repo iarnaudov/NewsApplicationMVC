@@ -93,7 +93,7 @@ using News.Services.Models;
 #line default
 #line hidden
             BeginContext(165, 426, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a89e7b11ad44c2a8ac1da24e046929d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d0bdee1a9f14340a589153a513581af", async() => {
                 BeginContext(276, 121, true);
                 WriteLiteral("\r\n    <ul class=\"nav navbar-nav navbar-right\">\r\n        <li>\r\n            <a style=\"cursor:pointer\" title=\"Manage\">Hello ");
                 EndContext();
@@ -145,7 +145,7 @@ else
             WriteLiteral("    <ul class=\"nav navbar-nav navbar-right\">\r\n        <li>");
             EndContext();
             BeginContext(663, 56, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "69cdd9c671034a7f882c178a41aebbcc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3cf4aba196a94510b2bc4bc0c608fa96", async() => {
                 BeginContext(707, 8, true);
                 WriteLiteral("Register");
                 EndContext();
@@ -169,7 +169,7 @@ else
             WriteLiteral("</li>\r\n        <li>");
             EndContext();
             BeginContext(738, 50, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af982ed44c1341cd8744ececa194d6f5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4be0c92188eb45cf8bbc3997ff29f937", async() => {
                 BeginContext(779, 5, true);
                 WriteLiteral("Login");
                 EndContext();

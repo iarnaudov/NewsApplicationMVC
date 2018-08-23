@@ -18,6 +18,8 @@ namespace News.Services.Contracts
 
         void Edit(int id, ArticleModel model);
 
-        IOrderedQueryable<Article> GetOrderedArticles(string ordertype);
+        List<Article> GetOrderedArticles(string ordertype);
+
+        List<Article> GetAllByType(string type);
     }
 }

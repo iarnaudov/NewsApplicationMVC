@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 namespace News.Web.Areas.Users.Controllers
 {
     [Area("Users")]
+    [Authorize(Roles = "Administrator")]
     public class ManageController : Controller
     {
         private readonly IUserService userService;
@@ -19,7 +20,6 @@ namespace News.Web.Areas.Users.Controllers
             this.userService = userService;
         }
 
-        [Authorize(Roles = "Administrator")]
         public IActionResult All()
         {
             var users = this.userService.GetAll();
@@ -27,7 +27,6 @@ namespace News.Web.Areas.Users.Controllers
             return View(users);
         }
 
-        [Authorize(Roles = "Administrator")]
         public IActionResult Details(string id)
         {
             var user = this.userService.GetById(id);
@@ -35,7 +34,6 @@ namespace News.Web.Areas.Users.Controllers
             return View(user);
         }
 
-        [Authorize(Roles = "Administrator")]
         public IActionResult Delete(string id)
         {
             this.userService.DeleteUserById(id);

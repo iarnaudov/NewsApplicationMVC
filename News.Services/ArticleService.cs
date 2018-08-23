@@ -31,7 +31,7 @@ namespace News.Services
             this._http = http;
         }
 
-        public IOrderedQueryable<Article> GetOrderedArticles(string ordertype)
+        public List<Article> GetOrderedArticles(string ordertype)
         {
             if (string.IsNullOrWhiteSpace(ordertype))
             {
@@ -39,16 +39,16 @@ namespace News.Services
             }
 
 
-            IOrderedQueryable<Article> articlesList;
+            List<Article> articlesList;
 
             switch (ordertype)
             {
-                case "name_ascending": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).AsNoTracking().OrderBy(a => a.Title); break;
-                case "name_descending": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).AsNoTracking().OrderByDescending(a => a.Title); break;
-                case "date_latest": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).AsNoTracking().OrderByDescending(a => a.TimeCreated); break;
-                case "date_oldest": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).AsNoTracking().OrderBy(a => a.TimeCreated); break;
-                case "category_asc": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).AsNoTracking().OrderBy(a => a.Category.Name); break;
-                case "category_desc": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).AsNoTracking().OrderByDescending(a => a.Category.Name); break;
+                case "name_ascending": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).OrderBy(a => a.Title).ToList(); break;
+                case "name_descending": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).OrderByDescending(a => a.Title).ToList(); break;
+                case "date_latest": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).OrderByDescending(a => a.TimeCreated).ToList(); break;
+                case "date_oldest": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).OrderBy(a => a.TimeCreated).ToList(); break;
+                case "category_asc": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).OrderBy(a => a.Category.Name).ToList(); break;
+                case "category_desc": articlesList = this.db.Articles.Include(c => c.Author).Include(a => a.Category).OrderByDescending(a => a.Category.Name).ToList(); break;
                 default: articlesList = null; break;
             }
 
@@ -172,7 +172,7 @@ namespace News.Services
                 Category = article.Category.Name,
                 Content = article.Content,
                 Title = article.Title,
-                DateCreated = article.TimeCreated.ToShortDateString(),
+                TimeCreated = article.TimeCreated.ToShortDateString(),
                 Tags = string.Join(" ", articleTags),
                 ImageUrl = article.ImageUrl
             };
@@ -186,6 +186,13 @@ namespace News.Services
             var articles = this.db.Articles.Include(a => a.Author).Include(a => a.Category).ToList();
             var articleForEdit = articles.SingleOrDefault(c => c.Id == id);
             return articleForEdit;
+        }
+
+
+        public List<Article> GetAllByType(string type)
+        {
+            var articles = this.db.Articles.Include(a => a.Author).Include(a => a.Category).Where(a => a.Category.Name == type).ToList();
+            return articles;
         }
     }
 }

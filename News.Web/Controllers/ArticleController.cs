@@ -26,28 +26,35 @@ namespace News.Web.Controllers
         }
 
         [HttpGet]
-        [Route("Article")]
+        [Route("articles")]
         [ActionName("All")]
-        public async Task<IActionResult> All(string ordertype, int page = 1)
+        public IActionResult All(string ordertype, int page = 1)
         {
             TempData["sortlevel"] = TempData["sortlevel"] != null ? ordertype = (string)TempData["sortlevel"] : TempData["sortlevel"] = "name_ascending";
             TempData.Keep();
 
-            var articlesList = this.articles.GetOrderedArticles(ordertype);
-            var model = await PagingList.CreateAsync<Article>(articlesList, 35, page);
-            return View(model);
+            var articlesList = this.articles.GetOrderedArticles(ordertype).ToList();
+            return View(articlesList);
         }
 
         [HttpPost]
-        [Route("Article")]
+        [Route("articles")]
         [ActionName("All")]
-        public async Task<IActionResult> AllDefaul(string ordertype, int page = 1)
+        public IActionResult AllDefaul(string ordertype, int page = 1)
         {
             TempData["sortlevel"] = ordertype;
             var articlesList = this.articles.GetOrderedArticles(ordertype);
-            var model = await PagingList.CreateAsync<Article>(articlesList, 35, page);
             return RedirectToAction(nameof(All));
         }
+
+
+        [Route("articles/Type/{type}")]
+        public IActionResult Type(string type, string ordertype)
+        {
+            var articles = this.articles.GetAllByType(type);
+            return View("AllByType", articles);
+        }
+
 
         [HttpGet]
         [Route("articles/create")]
@@ -156,5 +163,6 @@ namespace News.Web.Controllers
             this.articles.Delete(id);
             return RedirectToAction(nameof(All));
         }
+
     }
 }

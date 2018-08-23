@@ -77,7 +77,6 @@ D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMV
 D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.csproj.CoreCompileInputs.cache
 D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorAssemblyInfo.cache
 D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.RazorAssemblyInfo.cs
-D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.AssemblyInfoInputs.cache
 D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.AssemblyInfo.cs
 D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.TagHelpers.input.cache
@@ -122,3 +121,5 @@ D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMV
 D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.csproj.CopyComplete
 D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.dll
 D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\News.Web.pdb
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\obj\Debug\netcoreapp2.1\Razor\Views\Article\AllByType.g.cshtml.cs

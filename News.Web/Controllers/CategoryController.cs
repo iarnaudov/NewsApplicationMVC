@@ -9,6 +9,7 @@ using News.Services.Models;
 using News.Models;
 using ReflectionIT.Mvc.Paging;
 using Microsoft.AspNetCore.Authorization;
+using AutoMapper.QueryableExtensions;
 
 namespace News.Web.Controllers
 {
@@ -24,24 +25,22 @@ namespace News.Web.Controllers
         [HttpGet]
         [Route("Category")]
         [ActionName("All")]
-        public async Task<IActionResult> All(string ordertype, int page = 1)
+        public IActionResult All(string ordertype, int page = 1)
         {
             TempData["orderLevel"] = TempData["orderLevel"] != null ? ordertype = (string)TempData["orderLevel"] : TempData["orderLevel"] = "name_ascending";
             TempData.Keep();
 
             var categoryList = this.categories.GetOrderedCategories(ordertype);
-            var model = await PagingList.CreateAsync<Category>(categoryList, 50, page);
-            return View(model);
+            return View(categoryList);
         }
 
         [HttpPost]
         [Route("Category")]
         [ActionName("All")]
-        public async Task<IActionResult> AllDefaul(string ordertype, int page = 1)
+        public IActionResult AllDefaul(string ordertype, int page = 1)
         {
             TempData["orderLevel"] = ordertype;
             var categoryList = this.categories.GetOrderedCategories(ordertype);
-            var model = await PagingList.CreateAsync<Category>(categoryList, 50, page);
             return RedirectToAction(nameof(All));
         }
 
@@ -75,13 +74,7 @@ namespace News.Web.Controllers
         public IActionResult EditCategory(int id)
         {
             var categoryForEdit = this.categories.Get(id);
-            var categoryModel = new CategoryModel
-            {
-                Id = categoryForEdit.Id,
-                Name = categoryForEdit.Name
-            };
-
-            return View(categoryModel);
+            return View(categoryForEdit);
         }
 
         [HttpPost]

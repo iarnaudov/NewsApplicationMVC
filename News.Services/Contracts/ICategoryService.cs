@@ -13,7 +13,7 @@ namespace News.Services.Contracts
 
         List<Category> AllCategories(string ordertype);
 
-        IOrderedQueryable<Category> GetOrderedCategories(string ordertype);
+        List<Category> GetOrderedCategories(string ordertype);
 
         void Create(string name);
 
@@ -21,6 +21,6 @@ namespace News.Services.Contracts
 
         void Edit(int id, CategoryModel model);
 
-        Category Get(int id);
+        CategoryModel Get(int id);
     }
 }

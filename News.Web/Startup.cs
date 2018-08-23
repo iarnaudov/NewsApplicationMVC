@@ -16,6 +16,8 @@ using News.Models;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using News.Services;
 using News.Services.Contracts;
+using AutoMapper;
+using News.Web.Infrastructure.Mapping;
 
 namespace News.Web
 {
@@ -54,11 +56,23 @@ namespace News.Web
 
             services.ConfigureApplicationCookie(options => options.LoginPath = "/Identity/Login");
 
+            RegisterServices(services);
+            services.AddAutoMapper();
+
+            Mapper.Initialize(cfg =>
+            {
+                cfg.AddProfile<AutoMapperProfile>();
+            });
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
             services.AddTransient<IArticleService, ArticleService>();
             services.AddTransient<IHomeService, HomeService>();
             services.AddTransient<ICategoryService, CategoryService>();
             services.AddTransient<IUserService, UserService>();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

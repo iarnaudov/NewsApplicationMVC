@@ -24,7 +24,7 @@
     <div class="articleFooter">
         <span id="articleAuthorDetails"> By: @Model.Author</span>
         <span id="articleCategory">@Model.Category</span>
-        <p id="articleDate" style="float: right;">Date Created: @Model.DateCreated</p>
+        <p id="articleDate" style="float: right;">Date Created: @Model.TimeCreated</p>
     </div>
 </div>
 @if (this.User.IsInRole("Administrator") || this.User.IsInRole("Moderator"))

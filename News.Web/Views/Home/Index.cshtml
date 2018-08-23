@@ -10,11 +10,11 @@
     {
         <h3 id="catName">@category.Name</h3>
 
-        @foreach (var article in category.Articles.Where(a => a.Category.Name == category.Name).OrderByDescending(c => c.TimeCreated).Take(3))
+        @foreach (var article in Model.Articles.Where(a => a.Category == category.Name).OrderByDescending(c => c.TimeCreated).Take(3))
         {
         <div class="article">
             <h5 style="font-size:24px;" class="hvr-float">@Html.ActionLink(article.Title, "Details", "Article", new { id = article.Id }, null)</h5>
-            <h6 id="articleAuthorBottm" style="margin:0">By: @article.Author.UserName</h6>
+            <h6 id="articleAuthorBottm" style="margin:0">By: @article.Author</h6>
         </div>
         }
     }
