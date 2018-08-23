@@ -1,4 +1,5 @@
-### News Application MVC
+![](https://i.imgur.com/FksCGou.jpg)
+### News MVC Application 
 Blog-like website with articles, which informs users for news and facts around different categories.
 
 #### Features:
@@ -15,4 +16,7 @@ Blog-like website with articles, which informs users for news and facts around d
 - Dependency Injection
 - Security Protected (SQL Injection, XSS, CSRF)
 - Unit tests implemented
-- Code quality (well-structured code, following the MVC pattern, following SOLID principles, etc.) 
+- Code quality (well-structured code, following the MVC pattern, following SOLID principles, etc.)
+
+![](https://i.imgur.com/FksCGou.jpg)
+
