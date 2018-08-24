@@ -91,12 +91,12 @@ using News.Models;
             WriteLiteral("</td>\r\n        </tr>\r\n    </tbody>\r\n</table>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(390, 196, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a85011f25fb14c62a410c77aa76abf20", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d057c3f24b0a4821a104920124466653", async() => {
                 BeginContext(411, 10, true);
                 WriteLiteral("\r\n        ");
                 EndContext();
                 BeginContext(421, 152, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b59ce4a8db4442d587b08e69f95f6cd0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "749607a3820949fa842cbe6488e4c315", async() => {
                     BeginContext(563, 6, true);
                     WriteLiteral("Delete");
                     EndContext();

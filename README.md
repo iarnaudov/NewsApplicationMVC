@@ -15,6 +15,8 @@ Blog-like website with articles, which informs users for news and facts around d
 - Data validation and Error handling
 - Dependency Injection
 - Security Protected (SQL Injection, XSS, CSRF)
+- Using Automapper
+- Using AJAX Requests
 - Unit tests implemented
 - Code quality (well-structured code, following the MVC pattern, following SOLID principles, etc.)
 

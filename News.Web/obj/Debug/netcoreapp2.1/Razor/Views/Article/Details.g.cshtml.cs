@@ -169,7 +169,7 @@ WriteAttributeValue("", 373, Model.ImageUrl, 373, 15, false);
             WriteLiteral("    <div id=\"categoryButtons\">\r\n        ");
             EndContext();
             BeginContext(937, 104, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d558b974c0e541ed84941dbea0992b0a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe359fdb83ca4c1ba3df7eca778a48a2", async() => {
                 BeginContext(1033, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -207,7 +207,7 @@ WriteAttributeValue("", 373, Model.ImageUrl, 373, 15, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(1051, 107, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "badeb3f21244439281b2841679c36f9f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "946e2fe5998b477fab665a9cb412cc18", async() => {
                 BeginContext(1148, 6, true);
                 WriteLiteral("Delete");
                 EndContext();

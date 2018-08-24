@@ -67,7 +67,7 @@ using News.Models;
             WriteLiteral("    <div class=\"userDiv\">\r\n        <span style=\"float:left; margin:0 7px 0 15px\">&#9733;</span>");
             EndContext();
             BeginContext(150, 158, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c437ebcbf10d466eb7a68ca71d7a279e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "26eaaf12955345c7881c8ed9f2096833", async() => {
                 BeginContext(291, 13, false);
 #line 6 "D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\Areas\Users\Views\Manage\All.cshtml"
                                                                                                                                                                                                            Write(user.UserName);
