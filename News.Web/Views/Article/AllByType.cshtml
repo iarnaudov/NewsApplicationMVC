@@ -1,0 +1,47 @@
+﻿@model List<News.Models.Article>
+
+@{
+    ViewData["Title"] = "All";
+}
+
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+
+<div>
+    <h2 id="homeHeadings">All articles for @Model.First().Category.Name</h2>
+    @if (this.User.IsInRole("Administrator") || this.User.IsInRole("Moderator"))
+    {
+        <button style="margin: 15px 0px" type="submit" class="btn btn-success hvr-grow" onclick="location.href='@Url.Action("Create", "Article")'" value="Create Category">Create new Article</button>
+
+    }
+ 
+    @foreach (var article in Model)
+    {
+        <div class="article">
+            <h2 id="articleHeading" class="hvr-float"> @Html.ActionLink(article.Title, "Details", "Article", new { id = article.Id }, null) </h2>
+            @if (article.Content.Length > 300)
+            {
+                <p> @(article.Content.Substring(0, 300) + "...")</p>
+            }
+            else
+            {
+                <p> @article.Content </p>
+            }
+            <span id="articleCategory">@article.Category.Name</span>
+            <span id="articleDate" margin-right:50px;">@article.TimeCreated</span>
+            <div style="text-align:right;">
+                @if (this.User.IsInRole("Administrator") || this.User.IsInRole("Moderator"))
+                {
+                    <div>
+                        <a class="btn btn-primary hvr-grow" href="/articles/edit/@article.Id">Edit</a>
+                        <a class="btn btn-danger hvr-grow" href="/articles/delete/@article.Id">Delete</a>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>
+
+
+

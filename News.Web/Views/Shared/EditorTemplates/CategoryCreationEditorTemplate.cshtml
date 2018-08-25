@@ -1,0 +1,7 @@
+﻿@model CategoryModel
+
+<div class="form-group">
+    <label asp-for="Name">Category name</label>
+    <input asp-for="Name" type="text" class="form-control" placeholder="Enter name">
+    <span asp-validation-for="Name" class="form-text text-danger"></span>
+</div>

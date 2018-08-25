@@ -126,7 +126,7 @@ WriteAttributeValue("", 412, Url.Action("Create", "Article"), 412, 32, false);
             WriteLiteral("        ");
             EndContext();
             BeginContext(589, 871, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1e7ec486e2814f43bc5deb69306a7941", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "549a9c97cd294db19cb0822dd0332835", async() => {
                 BeginContext(609, 97, true);
                 WriteLiteral("\r\n            <div style=\"margin-bottom: 20px;text-align: left;\" method=\"post\">\r\n                ");
                 EndContext();
@@ -178,7 +178,7 @@ WriteAttributeValue("", 412, Url.Action("Create", "Article"), 412, 32, false);
             WriteLiteral("        ");
             EndContext();
             BeginContext(1552, 871, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67a9c47a52cb474bad82ff7242bebe93", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b11c3bcd139d4a0a87d6e5e729ffe3bd", async() => {
                 BeginContext(1572, 97, true);
                 WriteLiteral("\r\n            <div style=\"margin-bottom: 20px;text-align: left;\" method=\"post\">\r\n                ");
                 EndContext();
@@ -230,7 +230,7 @@ WriteAttributeValue("", 412, Url.Action("Create", "Article"), 412, 32, false);
             WriteLiteral("        ");
             EndContext();
             BeginContext(2512, 877, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8f013ada8335418eb8438e1c869c6e65", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5eaf9622a56841a5845d1b7079deb971", async() => {
                 BeginContext(2532, 97, true);
                 WriteLiteral("\r\n            <div style=\"margin-bottom: 20px;text-align: left;\" method=\"post\">\r\n                ");
                 EndContext();
@@ -282,7 +282,7 @@ WriteAttributeValue("", 412, Url.Action("Create", "Article"), 412, 32, false);
             WriteLiteral("        ");
             EndContext();
             BeginContext(3478, 877, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c133871ca03d41caa53959ab550c3d81", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "64244f4158da4d96922bbc1191025e52", async() => {
                 BeginContext(3498, 97, true);
                 WriteLiteral("\r\n            <div style=\"margin-bottom: 20px;text-align: left;\" method=\"post\">\r\n                ");
                 EndContext();
@@ -334,7 +334,7 @@ WriteAttributeValue("", 412, Url.Action("Create", "Article"), 412, 32, false);
             WriteLiteral("        ");
             EndContext();
             BeginContext(4448, 861, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f72b5e91c8fb40d98a30f09d2f81fe1e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b893773b6d8245bd86ec9df8fe90ed08", async() => {
                 BeginContext(4468, 97, true);
                 WriteLiteral("\r\n            <div style=\"margin-bottom: 20px;text-align: left;\" method=\"post\">\r\n                ");
                 EndContext();
@@ -386,7 +386,7 @@ WriteAttributeValue("", 412, Url.Action("Create", "Article"), 412, 32, false);
             WriteLiteral("        ");
             EndContext();
             BeginContext(5403, 861, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "24bfa17454114a30a5057fd3c47d38fe", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8288c92ccc9348e89ccf0d8f04167af6", async() => {
                 BeginContext(5423, 97, true);
                 WriteLiteral("\r\n            <div style=\"margin-bottom: 20px;text-align: left;\" method=\"post\">\r\n                ");
                 EndContext();
@@ -438,7 +438,7 @@ WriteAttributeValue("", 412, Url.Action("Create", "Article"), 412, 32, false);
             WriteLiteral("        ");
             EndContext();
             BeginContext(6354, 876, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d5e26b228cd48d79c702a2d55498cbd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe1aceceb8cd4feeb8fba30855c63a70", async() => {
                 BeginContext(6374, 97, true);
                 WriteLiteral("\r\n            <div style=\"margin-bottom: 20px;text-align: left;\" method=\"post\">\r\n                ");
                 EndContext();
@@ -490,7 +490,7 @@ WriteAttributeValue("", 412, Url.Action("Create", "Article"), 412, 32, false);
             WriteLiteral("        ");
             EndContext();
             BeginContext(7321, 877, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "778a3250edd24a00b5e8ff924ead177a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2bc1d21738394d0894b9170eb07f9ccf", async() => {
                 BeginContext(7341, 97, true);
                 WriteLiteral("\r\n            <div style=\"margin-bottom: 20px;text-align: left;\" method=\"post\">\r\n                ");
                 EndContext();
@@ -542,7 +542,7 @@ WriteAttributeValue("", 412, Url.Action("Create", "Article"), 412, 32, false);
             WriteLiteral("        ");
             EndContext();
             BeginContext(8232, 877, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9e5c0b7618404c81a055054654fa8cdd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2f3ca15aff344fc4a6b167f0154ab67e", async() => {
                 BeginContext(8252, 97, true);
                 WriteLiteral("\r\n            <div style=\"margin-bottom: 20px;text-align: left;\" method=\"post\">\r\n                ");
                 EndContext();

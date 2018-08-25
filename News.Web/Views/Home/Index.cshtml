@@ -10,18 +10,7 @@
 <div class="latestNews"></div>
 <div>
     <h2 id="categoryHeading">Lifestyle News</h2>
-    @foreach (var category in Model.Categories)
-    {
-        <h3 id="catName">@category.Name</h3>
-
-        @foreach (var article in Model.Articles.Where(a => a.Category == category.Name).OrderByDescending(c => c.TimeCreated).Take(3))
-        {
-        <div class="article">
-            <h5 style="font-size:24px;" class="hvr-float">@Html.ActionLink(article.Title, "Details", "Article", new { id = article.Id }, null)</h5>
-            <h6 id="articleAuthorBottm" style="margin:0">By: @article.Author</h6>
-        </div>
-        }
-    }
+    @Html.DisplayForModel("ArticlesDisplayTemplate");
 </div>
 
 <script>
@@ -35,6 +24,7 @@
                 .then(function (response) {
                     response.json().then((data) => {
                         let articles = data.articles;
+                        $(".latestNews").append(`<h2 id="categoryHeading">Latest News from Bulgaria</h2>`)
 
                         for (let article of articles) {
                             console.log(article);
@@ -44,15 +34,15 @@
                                 article.urlToImage != null &&
                                 article.url != null) {
                                 $(".latestNews").append(`
-                                                    <div class="article">
-                                                        <a style="font-size:24px;text-decoration:none" href="${article.url}" class="hvr-float" target="_blank">${article.title})</a>
-                                                        <img src="${article.urlToImage}" style="width:300px;display:block"/>
-                                                        <p class="description">${article.description}</p>
-                                                        <label class="author" style="margin:0">Author: ${article.author}</label>
-                                                        <label class="source">Source site: ${article.source.name}</label>
-                                                        <label class="publishedDate">Published Date: ${new Date(article.publishedAt).toUTCString()}</label>
-                                                    </div>
-                                                 `)
+                            <div class="article">
+                                <a style="font-size:24px;text-decoration:none" href="${article.url}" class="hvr-float" target="_blank">${article.title})</a>
+                                <img src="${article.urlToImage}" style="width:300px;display:block"/>
+                                <p class="description">${article.description}</p>
+                                <label class="author" style="margin:0">Author: ${article.author}</label>
+                                <label class="source">Source site: ${article.source.name}</label>
+                                <label class="publishedDate">Published Date: ${new Date(article.publishedAt).toUTCString()}</label>
+                            </div>
+                            `)
                             }
                         }
                     });

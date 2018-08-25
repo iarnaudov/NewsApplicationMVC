@@ -7,10 +7,6 @@
 <h2>Create new Category</h2>
 
 <form method="post">
-    <div class="form-group">
-        <label asp-for="Name">Category name</label>
-        <input asp-for="Name" type="text" class="form-control" placeholder="Enter name">
-        <span asp-validation-for="Name" class="form-text text-danger"></span>
-    </div>
+    @Html.EditorForModel("CategoryCreationEditorTemplate");
     <button type="submit" class="btn btn-primary hvr-grow">Submit</button>
 </form>

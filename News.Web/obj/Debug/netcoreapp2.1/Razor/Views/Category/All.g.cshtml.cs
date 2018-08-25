@@ -136,7 +136,7 @@ WriteAttributeValue("", 446, Url.Action("Create", "Category"), 446, 33, false);
             WriteLiteral("        ");
             EndContext();
             BeginContext(640, 519, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee9f412337fc4f1ca533636e4dba737d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "05c551113668452d906284fa31dd1404", async() => {
                 BeginContext(689, 37, true);
                 WriteLiteral("\r\n            <div>\r\n                ");
                 EndContext();
@@ -185,7 +185,7 @@ WriteAttributeValue("", 446, Url.Action("Create", "Category"), 446, 33, false);
             WriteLiteral("        ");
             EndContext();
             BeginContext(1193, 518, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6a478a937e474dafb0a3418e5d89be46", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3de01336377f47ceadcc6a5243364a21", async() => {
                 BeginContext(1242, 37, true);
                 WriteLiteral("\r\n            <div>\r\n                ");
                 EndContext();
@@ -241,7 +241,7 @@ WriteAttributeValue("", 446, Url.Action("Create", "Category"), 446, 33, false);
             WriteLiteral("            <div id=\"categoriesList\">\r\n                ");
             EndContext();
             BeginContext(1920, 162, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7236774292b641d6b02c634ee3f9191a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e36798b1b90426f91e59d8f0ce23c14", async() => {
                 BeginContext(2065, 13, false);
 #line 49 "D:\Програмиране\SoftUni Homeworks\SoftUni - GitHub\NewsApplicationMVC\News.Web\Views\Category\All.cshtml"
                                                                                                                                                            Write(category.Name);
@@ -293,7 +293,7 @@ WriteAttributeValue("", 446, Url.Action("Create", "Category"), 446, 33, false);
             WriteLiteral("                    <div id=\"categoryButtons\">\r\n                        ");
             EndContext();
             BeginContext(2269, 116, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0847464fb11d4d3e9c86e3cc8e494304", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e14d22edea14f268a720a5cfff4b29f", async() => {
                 BeginContext(2377, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -331,7 +331,7 @@ WriteAttributeValue("", 446, Url.Action("Create", "Category"), 446, 33, false);
             WriteLiteral("\r\n                        ");
             EndContext();
             BeginContext(2411, 119, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a22f81733e194dd4abce0c9924b712ed", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "913fd9ba41274c6999a59dbf3baa9045", async() => {
                 BeginContext(2520, 6, true);
                 WriteLiteral("Delete");
                 EndContext();
