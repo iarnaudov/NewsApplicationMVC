@@ -121,7 +121,8 @@ namespace News.Web.Controllers
                 Author = articleForEdit.Author.UserName,
                 Category = articleForEdit.Category.Name,
                 Content = articleForEdit.Content,
-                Tags = tagString
+                Tags = tagString,
+                ImageUrl = articleForEdit.ImageUrl
             };
             var authorName = _http.HttpContext.User.Identity.Name;
             ViewBag.AuthorName = authorName;
